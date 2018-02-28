@@ -1,0 +1,139 @@
+
+.navigation {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    /*border-bottom:4px solid #5dba09;*/
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav__menu {
+    flex:3;
+    background-color: #b5e704;
+}
+
+.menu {
+    flex:3;
+    display: flex;
+    text-align: center;
+}
+
+.menu__item  {
+  flex:2;
+  border-right: 1px solid #646464;
+  padding:25px 10px 25px 10px;
+  font-size: 13px;
+}
+
+.menu__item.has-submenu {
+    border-bottom: 4px solid #5dba09; 
+    border-right: 1px solid #5dba09;
+}
+
+.menu__item.has-submenu:hover {
+    border-bottom: none;
+    background-color: #ffffff;
+}
+
+
+.menu__item.has-submenu:hover .submenu {
+    display: flex;
+    background-color: #dedede;
+    padding: 10px 0;
+}
+
+.submenu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -36px;
+    display: none;
+    text-transform: capitalize;
+    flex:2;
+    flex-wrap: wrap;
+}
+
+    .submenu .menu__item {
+       padding:0 10px;
+    }
+
+.submenu__space {
+    display: flex;
+    flex:6;
+}
+
+
+/*ICONS MANU*/
+.icons {
+    display: flex;
+    flex:1;
+    background-color:#b5e704;
+    font-weight:normal;
+    font-size: 13px;
+    align-items: center;
+    justify-content: flex-end;
+    padding:0 10px;
+    border-bottom: 4px solid #5dba09;
+}
+
+.icons__title {
+    margin-top:22px;
+    margin-right: 20px;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    columns: #000000;
+}
+.facebook__icon {
+    width:20px;
+    height: 20px;
+    margin-right: 20px;
+    fill:#5dba09;
+}
+
+.twiter__icon {
+    width:20px;
+    height:20px;
+    fill:#5dba09;
+}
+/*SEARCH*/
+.search {
+    flex:0.5;
+    background-color:#b5e704;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 4px solid #5dba09;
+    padding:0 10px;
+}
+
+.search__active {
+    display: none;
+    position:absolute;
+    right:19px;
+    top:20px;
+}
+
+.search:hover .search__active {
+    display: block;
+    background-color: #dedede;
+    margin:0 10px;
+    color:green;
+    padding:5px 5px;
+    box-shadow: 0;
+    border:none;
+}
+
+.search__icon {
+    width:20px;
+    height:20px;
+    fill:#81cd07;
+}
+
+.subtitle__list :hover {
+    display: block;
+}
+
+

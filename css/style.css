@@ -1,0 +1,31 @@
+@import url("main-menu.css");
+@import url("header-logo.css");
+@import url("main-content.css");
+@import url("aside.css");
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: #20272e;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    margin:0 auto;
+    max-width: 1080px;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+li {
+   
+}
+
