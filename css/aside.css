@@ -25,7 +25,11 @@ aside {
         position: absolute;
         height: 4px;
         width: 150px;
-        top: 283px;
-        right: 163px;
+        top: 284px;
+        right: 378px;
         background-color: #b5e704;
     }
+
+.aside__content__description--second {
+    margin-top: 30px;
+}

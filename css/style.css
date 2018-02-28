@@ -2,10 +2,10 @@
 @import url("header-logo.css");
 @import url("main-content.css");
 @import url("aside.css");
-/*
+
 font-family: 'Dosis', sans-serif;
 font-family: 'Open Sans', sans-serif;
-*/
+
 html {
     box-sizing: border-box;
 }
